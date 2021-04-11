@@ -11,7 +11,6 @@ export function generateHomeregion():String {
 let heimatregion:Array<Array<string>> = []
 
 function createHomeregions() {
-
     //Erländer
     heimatregion[0] = ["Am Rande des Arinawaldes", "Die Ebenen von Moldena", "Die Ebenen von Moldena", "Die Ufer vom Varda-See", "Die Felder von Margelda", "Die Harga-Wüste"]
     //Aslene
