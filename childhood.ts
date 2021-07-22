@@ -8,8 +8,8 @@ export let childAttributes:number[] = []
 
 export function generateChildhood() {
     setDefaultSkills()
-    generateRace()
-    generateChildhoodSkills(0)
+    //generateRace()
+    generateChildhoodSkills(raceInt)
 }
 
 function setDefaultSkills() {
@@ -609,5 +609,3 @@ function generateChildhoodSkills(raceNumber) {
         console.log("Fehler!!!");
     }
 }
-
-generateChildhood()

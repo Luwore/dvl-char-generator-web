@@ -1,4 +1,4 @@
-import {generateRace, raceInt} from "./race";
+import {raceInt} from "./race";
 import {d6Roller} from "./diceRoller";
 
 

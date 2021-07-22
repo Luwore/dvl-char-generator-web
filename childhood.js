@@ -7,8 +7,8 @@ exports.skill = [];
 exports.childAttributes = [];
 function generateChildhood() {
     setDefaultSkills();
-    race_1.generateRace();
-    generateChildhoodSkills(0);
+    //generateRace()
+    generateChildhoodSkills(race_1.raceInt);
 }
 exports.generateChildhood = generateChildhood;
 function setDefaultSkills() {
@@ -614,4 +614,3 @@ function generateChildhoodSkills(raceNumber) {
         console.log("Fehler!!!");
     }
 }
-generateChildhood();
